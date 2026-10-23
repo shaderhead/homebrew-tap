@@ -1,8 +1,8 @@
 class Worktape < Formula
   desc "Record your terminal and its windows for devlogs and screencasts"
   homepage "https://github.com/shaderhead/worktape"
-  url "https://github.com/shaderhead/worktape/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "0107664d18aa35a1bab4cb8ceab96024c623bef51b96656dc9bf40b4cf3d40d7"
+  url "https://github.com/shaderhead/worktape/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "b8b137a34e6de6bb864bf7eaf439eb4c1fdb0c9c359ad8a7f4230b1bbfc91a3b"
   license "MIT"
 
   bottle do
