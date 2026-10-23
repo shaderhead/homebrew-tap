@@ -6,9 +6,9 @@ class Worktape < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/shaderhead/homebrew-tap/releases/download/worktape-0.1.0"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "34dc8ccc4e8fdec023dbd1bc6342b7aebd726079c3478f0d790e5c2a3eee5981"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "629462788bc148c0ac2d01cfa12e26045a065ba0a8ff7e919344df96da0f1c22"
+    root_url "https://github.com/shaderhead/homebrew-tap/releases/download/worktape-0.2.0"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "ba97b036e8102e0da952d7ba04c30783bc7d1943e6e5321d61e7e604e773993d"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "4686298f60c9ab5f81bd9c2b458518763fb3b237fb61e30fb8214de07fc62d00"
   end
 
   depends_on xcode: ["16.0", :build]
